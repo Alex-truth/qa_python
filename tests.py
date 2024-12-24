@@ -68,7 +68,7 @@ def test_get_books_with_specific_genre(book1_genre, book2_genre, book3_genre, bo
     assert books == expected_books
 
 
-def test_correct_dictionary_genre():
+def test_get_books_genre():
     collector = BooksCollector()
     collector.add_new_book("Дюна")
     collector.add_new_book("Пила")
